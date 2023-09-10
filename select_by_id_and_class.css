@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#texto{
+    
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hijos, h2{
+    display: flex;
+    border: 1px solid green;
+    justify-content: center;
+    border-radius: 5px;
+    width: 60%;
+    flex-wrap: wrap;
+    margin: 5px auto;
+    padding: 3px;
+}
+.opt{
+    color: red;
+    background: green;
+}
+.style{
+    color: green;
+    background: red;
+}
